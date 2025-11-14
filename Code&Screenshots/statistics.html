@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Statistics Calculator</title>
+    <script src="./statistics.js" defer></script>
+</head>
+<body>
+
+<h1>Statistics Calculator</h1>
+
+<div class="container">
+    <h2>Enter a list of numbers seperated by spaces</h2><br>
+    <label>number: list</label><br>
+    <input type="text" id="numInput" >
+
+    <div>
+        <button onclick="computeMean()">Mean</button>
+        <button onclick="computeVariance()">Variance</button>
+        <button onclick="computeStdDev()">Standard Deviation</button>
+    </div>
+
+    <div id="error"></div>
+    <div id="output"></div>
+</div>
+
+</body>
+</html>
